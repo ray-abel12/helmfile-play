@@ -15,6 +15,4 @@ spec:
       env:
         - name: KUBE_VERSION
           value: '1.16'
-        - name: HELMFILE_HELMFILE
-          value: helmfile.yaml
   project: default
