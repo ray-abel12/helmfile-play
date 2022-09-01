@@ -1,0 +1,18 @@
+helmDefaults:
+  atomic: true
+  cleanupOnFail: true
+
+repositories:
+  - name: external-secrets
+    url: "https://charts.external-secrets.io/"
+
+commonLabels:
+  managedBy: Helmfile
+
+releases:
+  - name: external-secrets
+    namespace: "external-secrets"
+    chart: external-secrets/external-secrets
+    version: "0.5.3"
+
+kubeVersion: v1.22
