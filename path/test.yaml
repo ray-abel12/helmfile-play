@@ -14,5 +14,5 @@ spec:
       name: helmfile
       env:
         - name: KUBE_VERSION
-          value: '1.16'
+          value: '1.22'
   project: default
