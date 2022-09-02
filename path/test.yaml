@@ -10,9 +10,9 @@ spec:
     path: path
     repoURL: 'https://github.com/ray-abel12/helmfile-play.git'
     targetRevision: HEAD
-    plugin:
-      name: helmfile
-      env:
-        - name: KUBE_VERSION
-          value: '1.22'
+#     plugin:
+#       name: helmfile
+#       env:
+#         - name: KUBE_VERSION
+#           value: '1.22'
   project: default
